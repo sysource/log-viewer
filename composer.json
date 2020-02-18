@@ -1,10 +1,10 @@
 {
-    "name": "louis/log-viewer",
+    "name": "sysource/log-viewer",
     "description": "Log Viewer",
     "authors": [
         {
-            "name": "Louis Walker",
-            "email": "louis.walker@acellemail.com"
+            "name": "Sys Source",
+            "email": "info@sysource.com"
         }
     ],
     "type": "library",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Acelle\\Extra\\LogViewer\\": "src/"
+            "Ace\\Extra\\LogViewer\\": "src/"
         },
         "files": ["helpers.php"]
     },
