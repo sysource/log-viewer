@@ -1,6 +1,6 @@
 <?php
 
-namespace Acelle\Extra\LogViewer;
+namespace Ace\Extra\LogViewer;
 
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
