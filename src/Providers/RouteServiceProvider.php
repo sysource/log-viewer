@@ -1,6 +1,6 @@
 <?php
 
-namespace Acelle\Extra\LogViewer\Providers;
+namespace Ace\Extra\LogViewer\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -27,7 +27,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::group([
             'prefix' => 'log-viewer',
-            'namespace' => 'Acelle\\Extra\\LogViewer\\Http\\Controllers',
+            'namespace' => 'Ace\\Extra\\LogViewer\\Http\\Controllers',
             'middleware' => ['web_nocsrf', 'auth', 'not_installed', 'backend'], ], function ($router) {
                 Route::get('/', 'LogViewerController@index')->name('log-viewer');
                 Route::post('{file}/empty', 'LogViewerController@emptyFile');
