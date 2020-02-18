@@ -1,8 +1,8 @@
 <?php
 
-namespace Acelle\Extra\LogViewer\Http\Controllers;
+namespace Ace\Extra\LogViewer\Http\Controllers;
 
-use Acelle\Extra\LogViewer\PhpTail;
+use Ace\Extra\LogViewer\PhpTail;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
